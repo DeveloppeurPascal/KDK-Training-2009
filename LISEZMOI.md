@@ -6,6 +6,8 @@ Entre 2009 et 2015 il m'est arrivé de publier des numéro de KDK Training.
 
 KDK Training était un ensemble de grilles de jeu mathématique inspiré du Sudoku mais avec une difficulté complémentaire. Au lieu de simplement poser des chiffres de façon unique dans les colonnes et grilles il fallait aussi résoudre des équations simples. On le retrouve dans la presse spécialisée et sur Internet sous différents noms : Kenken, Kendoku, Mathdoku, Calcudoku, ... Certains d'entre eux est une marque déposée.
 
+![sample KDK training grid](images/sample-grid.png)
+
 Dans ce dépôt de code je vous livre [les archives de KDK Training sous forme de fichiers PDF](ebooks-PDF/LISEZMOI.md) et les codes sources du site ma-soluce.fr qui permettait de consulter les solutions après paiement d'un code Allopass mais aussi de générer des grilles.
 
 Les solutions des grilles ne sont pas fournies. Si c'est possible je les ajouterai un jour. En attendant, à vous de faire travailler vos méninges.

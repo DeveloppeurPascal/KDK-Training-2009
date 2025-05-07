@@ -6,6 +6,8 @@ Between 2009 and 2015 I published a few issues of KDK Training.
 
 KDK Training was a set of grids for a mathematical game inspired by Sudoku but with an added difficulty. Instead of simply placing numbers in a single way in the columns and grids, you also had to solve simple equations. It can be found in the specialist press and on the Internet under various names: Kenken, Kendoku, Mathdoku, Calcudoku, etc. Some of them are registered trademarks.
 
+![sample KDK training grid](images/sample-grid.png)
+
 In this code repository I am providing you with [the KDK Training archives in the form of PDF files](ebooks-PDF/README.md) and the source codes for the ma-soluce.fr site, which enabled you to consult the solutions after payment of an Allopass code and also to generate grids.
 
 The grid solutions are not provided. If possible, I'll add them one day. In the meantime, it's up to you to get your brains working.
