@@ -1,0 +1,18 @@
+<?php
+	include (dirname(__FILE__)."/__haut_de_page.html");
+?>
+<h1>Solution du jeu n° <?php print(htmlentities($reference)); ?></h1>
+<?php
+	jeu_afficher(_AFFICHAGE_HTML_SOLUTION);
+?>
+<h1>Consulter une autre solution ?</h1>
+<form name="frm" action="index.php" method="post">
+	<input type="hidden" name="op" value="1">
+	<p>Numéro de jeu : <input type="text" size="15" value="" name="reference"><br />
+	<input type="submit" value="Voir"></p>
+</form>
+<script>
+	document.frm.reference.focus();
+</script>
+<?php
+	include (dirname(__FILE__)."/__bas_de_page.html");

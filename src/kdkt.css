@@ -1,0 +1,55 @@
+#grille {
+	border-width: 5px;
+	border-style: solid;
+	border-collapse: collapse;
+	empty-cells: show;
+	border-color: #000000;
+}
+#grille tr td {
+	width: 5em;
+	height: 5em;
+	vertical-align: top;
+	border-color: #000000;
+	text-align: left;
+	color: #000000;
+	font-family: helvetica, arial;
+	font-weight: bold;
+}
+.foncehaut {
+	border-top-width: 3px;
+	border-top-style: solid;
+}
+.foncedroite {
+	border-right-width: 3px;
+	border-right-style: solid;
+}
+.foncebas {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+}
+.foncegauche {
+	border-left-width: 3px;
+	border-left-style: solid;
+}
+.clairhaut {
+	border-top-width: 1px;
+	border-top-style: dotted;
+}
+.clairdroite {
+	border-right-width: 1px;
+	border-right-style: dotted;
+}
+.clairbas {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+}
+.clairgauche {
+	border-left-width: 1px;
+	border-left-style: dotted;
+}
+.solution {
+	font-size : 3em;
+	font-style: italic;
+	display: block;
+	text-align: center;
+}

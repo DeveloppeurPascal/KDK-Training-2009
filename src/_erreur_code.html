@@ -1,0 +1,21 @@
+<?php
+	include (dirname(__FILE__)."/__haut_de_page.html");
+?>
+<h1>Code invalide</h1>
+<p>Le code saisi est invalide. Vous ne pouvez accéder à la solution désirée pour le moment.</p>
+<p>Si le système Allopass vous a bien remis le code "<strong><?php print(htmlentities($allopass)) ?></strong>",<br />
+que vous ne vous êtes pas trompé en le saisissant,<br />
+que vous ne l'aviez pas utilisé avant,<br />
+contactez les pour signaler ce problème et en réclamer un nouveau.</p>
+<p>Si vous aviez fait une erreur, vous pouvez recommencer ou en prendre un nouveau.</p>
+<h1>Consulter une autre solution ?</h1>
+<form name="frm" action="index.php" method="post">
+	<input type="hidden" name="op" value="1">
+	<p>Numéro de jeu : <input type="text" size="15" value="<?php print(htmlentities($reference)); ?>" name="reference"><br />
+	<input type="submit" value="Voir"></p>
+</form>
+<script>
+	document.frm.reference.focus();
+</script>
+<?php
+	include (dirname(__FILE__)."/__bas_de_page.html");
