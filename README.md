@@ -1,32 +1,16 @@
-# Delphi-Projects-Template
+# KDK Training 2009
 
 [Cette page en français.](LISEZMOI.md)
 
-**A git repository template for my Delphi (or other) projects.**
+Between 2009 and 2015 I published a few issues of KDK Training.
 
-**This template is distributed under the MIT license. The AGPL license is for the projects I create from this code repository template. Use whatever license you want if you use this template.**
+KDK Training was a set of grids for a mathematical game inspired by Sudoku but with an added difficulty. Instead of simply placing numbers in a single way in the columns and grids, you also had to solve simple equations. It can be found in the specialist press and on the Internet under various names: Kenken, Kendoku, Mathdoku, Calcudoku, etc. Some of them are registered trademarks.
 
-This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
+In this code repository I am providing you with [the KDK Training archives in the form of PDF files](ebooks-PDF/README.md) and the source codes for the ma-soluce.fr site, which enabled you to consult the solutions after payment of an Allopass code and also to generate grids.
 
-## Using this software
-
-Visit [the AAA website](https://BBB.olfsoftware.fr) to download the compiled version, learn more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
-
-## Using this video game
-
-Visit [the AAA website](https://BBB.gamolf.fr) to download the compiled version, learn more about how it works, access videos and articles, find out about the different versions available and their features, contact user support...
+The grid solutions are not provided. If possible, I'll add them one day. In the meantime, it's up to you to get your brains working.
 
 ## Talks and conferences
-
-### Online talk
-
-* [talk title](talk URL) (in English)
-* [talk title](talk URL) (in French)
-
-### XXX 2024
-
-* [talk title](talk URL) (in English)
-* [talk title](talk URL) (in French)
 
 ### Twitch
 
@@ -34,36 +18,25 @@ Follow my development streams of software, video games, mobile applications and 
 
 ## Source code installation
 
-To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
-
-This project uses dependencies in the form of sub-modules. They will be absent from the ZIP file. You'll have to download them by hand.
-
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
-* [YYY](ZZZ) must be installed in the ./lib-externes/YYY subfolder.
+To download this code repository, we recommend using "git", but you can also download a ZIP file directly from [its GitHub repository](https://github.com/DeveloppeurPascal/KDK-Training-2009).
 
 ## Documentation and support
 
-I use comments in [XMLDOC](https://docwiki.embarcadero.com/RADStudio/en/XML_Documentation_Comments) format in Delphi to document my projects. They are recognized by Help Insight, which offers real-time input help in the code editor.
-
-I regularly use the [DocInsight](https://devjetsoftware.com/products/documentation-insight/) tool to enter them and check their formatting.
-
-Documentation is exported in HTML by [DocInsight](https://devjetsoftware.com/products/documentation-insight/) or [PasDoc](https://pasdoc.github.io) to the /docs folder of the repository. You can also [access it online](https://developpeurpascal.github.io/XXXXXXXXXX) through the hosting offered by GitHub Pages.
-
-Further information (tutorials, articles, videos, FAQ, talks and links) can be found on [the project website](https://BBB.developpeur-pascal.fr) or [the project devlog](https://developpeur-pascal.fr/BBB.html).
-
-If you need explanations or help in understanding or using parts of this project in yours, please [contact me](https://developpeur-pascal.fr/nous-contacter.php). I can either direct you to an online resource, or offer you assistance in the form of a paid or free service, depending on the case. You can also contact me at a conference or during an online presentation.
+If you need explanations or help in understanding or using parts of this project in yours, please [contact me](https://trucs-de-developpeur-web.fr/nous-contacter.php). I can either direct you to an online resource, or offer you assistance in the form of a paid or free service, depending on the case. You can also contact me at a conference or during an online presentation.
 
 ## Compatibility
 
-As an [Embarcadero MVP](https://www.embarcadero.com/resources/partners/mvp-directory), I benefit from the latest versions of [Delphi](https://www.embarcadero.com/products/delphi) and [C++ Builder](https://www.embarcadero.com/products/cbuilder) in [RAD Studio](https://www.embarcadero.com/products/rad-studio) as soon as they are released. I therefore work with these versions.
-
-Normally, my libraries and components should also run on at least the current version of [Delphi Community Edition](https://www.embarcadero.com/products/delphi/starter).
-
-There's no guarantee of compatibility with earlier versions, even though I try to keep my code clean and avoid using too many of the new ways of writing in it (type inference, inline var and multiline strings).
-
-If you detect any anomalies on earlier versions, please don't hesitate to [report them](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues) so that I can test and try to correct or provide a workaround.
+The source code dates from 2009. They should work on recent versions of PHP with minor modifications.
 
 ## License to use this code repository and its contents
+
+For both PDFs and source code, I require fair use (as defined by [US law](https://en.wikipedia.org/wiki/Fair_use)) of the content I share here (and generally on all my code repositories and website).
+
+### PDF ebooks
+
+You can freely distribute these files around you on the condition that you do not alter or sell them. They are distributed under [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+### ma-soluce.fr source codes
 
 This source code is distributed under the [AGPL 3.0 or later](https://choosealicense.com/licenses/agpl-3.0/) license.
 
@@ -72,17 +45,15 @@ You are free to use the contents of this code repository anywhere provided :
 * distribute the modifications made to the files provided in this AGPL-licensed project (leaving the original copyright notices (author, link to this repository, license) must be supplemented by your own)
 * to distribute the source code of your creations under the AGPL license.
 
-If this license doesn't suit your needs (especially for a commercial project) I also offer [classic licenses for developers and companies](https://BBB.developpeur-pascal.fr).
-
 Some elements included in this repository may depend on third-party usage rights (images, sounds, etc.). They are not reusable in your projects unless otherwise stated.
 
 The source codes of this code repository as well as any compiled version are provided “as is” without warranty of any kind.
 
 ## How to ask a new feature, report a bug or a security issue ?
 
-If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/KDK-Training-2009) and [open a new issue](https://github.com/DeveloppeurPascal/KDK-Training-2009/issues).
 
-If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
+If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://trucs-de-developpeur-web.fr/nous-contacter.php).
 
 You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
